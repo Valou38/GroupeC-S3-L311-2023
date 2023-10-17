@@ -1,6 +1,6 @@
 *****************************************
 
-Ce fichier README a été généré le 17 octobre 2023 par UE311 - Groupe C.
+Ce fichier README a été généré le 17 octobre 2023 par UE311 - Groupe C \
 Dernière mise-à-jour le : 17 octobre 2023.
 
 ***************************************
@@ -10,24 +10,24 @@ Dernière mise-à-jour le : 17 octobre 2023.
 ## Titre du dossier
 
 GroupeC-S3-L311-2023
+
+## Objectifs de l'application
+
+Afficher l'heure en temps réel et proposer un boutton permettant de la figer à tout instant.
+
  
-## Auteurs
+## Auteurs et contact
 
-[@Maxime Canac](https://github.com/MaximeCanac) - 
-[@Mya Dumas](https://github.com/MyaDL) - 
-[@Siham Charef](https://github.com/SihamWeb) - 
-[Valentine Maillard](https://github.com/Valou38)
+4 étudiants de l'Univesrité de Limoges \
+[@Maxime Canac](https://github.com/MaximeCanac) - maxime.canac@etu.unilim.fr \
+[@Mya Dumas](https://github.com/MyaDL) - mya.dumas@etu.unilim.fr \
+[@Siham Charef](https://github.com/SihamWeb) - siham.charef@etu.unilim.fr \
+[@Valentine Maillard](https://github.com/Valou38) - valentine.maillard@etu.unilim.fr
 
-## Adresses de contact :
-
-maxime.canac@etu.unilim.fr - 
-mya.dumas@etu.unilim.fr - 
-siham.charef@etu.unilim.fr - 
-valentine.maillard@etu.unilim.fr
 
 ## Hébergement
 
-L'ensemble du code est hébergé de façon publique sur la plateforme GitHub
+L'ensemble du code est hébergé de façon publique sur la plateforme GitHub \
 https://github.com/Valou38/GroupeC-S3-L311-2023
 
  
@@ -38,8 +38,8 @@ https://github.com/Valou38/GroupeC-S3-L311-2023
 
 ## Cadre du projet
 
-Projet créé dans le cadre de la formation Licence professionnelle métiers de l'informatique - Applications web de l'Université de Limoges.
-Travail de groupe constitué de 4 étudiants en 3ème année
+Projet créé dans le cadre de la formation Licence professionnelle métiers de l'informatique - Applications web de l'Université de Limoges. \
+Travail de groupe constitué de 4 étudiants en 3ème année \
 Promotion 2023 - 2024
 
 ## Méthodologie du projet
@@ -51,13 +51,18 @@ La partie asynchrone est constituée des commentaires de code, du fichier README
 
 ## Objectifs du projet
 
-Réaliser un débogage de l'application web
+Réaliser un débogage de l'application web \
 Editer l'ensemble des fichiers pour permettre une meilleure compréhension 
 
 
 **********************************************
 # INFORMATIONS TECHNIQUES de l'APPLICATION
 ***********************************************
+
+## Fonctionnement
+
+Une fois l'application lancée, l'heure exacte apparait et se met à jour chaque seconde. \
+Si l'utilisateur presse le boutton "pause", l'heure se fige. Pour revenir à l'affichage de l'heure conrante, rappuyer sur le boutton.
 
 ## Languages d'écriture
 
@@ -67,12 +72,14 @@ Les fichiers .PHP sont principalement programmés en langage HTML, compatible av
 ## Arborescence
 
 GroupeC-S3-L311-2023  \
-&nbsp;&nbsp; Master \
-&nbsp;&nbsp; &nbsp;&nbsp; assets \
+&nbsp;&nbsp; /Master \
+&nbsp;&nbsp; &nbsp;&nbsp; /assets \
 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; /CSS  \
 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; style.css \
 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; /JS   \
 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; script.js \
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; README.md \
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; index.php \
 &nbsp;&nbsp; /CommentairesPHP \
 &nbsp;&nbsp; /CommentairesJS \
 &nbsp;&nbsp; /CommentairesCSS \
