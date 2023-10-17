@@ -83,4 +83,4 @@ GroupeC-S3-L311-2023  \
 Afin d'éviter toute confusion, la branche Master est la branche principale dans laquelle sont logés les fichiers suivant l'appellation de base (index, style, script).
 
 Les autres branches servent uniquement au développement et sont nommées en fonction de leur utilité pour les développeur.
-Par exemple, la branche commentairePHP n'est utilisée que pour la création des commentaires du fichier PHP.
+Par exemple, la branche "commentairePHP" n'est utilisée que pour la création des commentaires du fichier PHP.
