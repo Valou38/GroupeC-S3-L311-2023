@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+    <!-- Définition de l'encodage de caractères utilisés -->
     <meta charset="utf-8">
+    <!-- Titre de la page -->
     <title>Time</title>
+    <!-- Importation de la police Aldrich depuis Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
+    <!-- Importation du fichier CSS pour le style -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Importation du fichier Javascript pour le fonctionnement de la page -->
     <script src="assets/js/script.js"></script>
 </head>
 <body>
