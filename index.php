@@ -13,14 +13,22 @@
     <script src="assets/js/script.js"></script>
 </head>
 <body>
+<!-- Conteneur principal de la page -->
 <div id="wrapper">
+    <!-- Conteneur interne -->
     <div class="inside" id="wrapper">
+        <!-- Affichage de l'heure actuelle -->
         <div class="timer">
+            <!-- Affichage du nombre d'heures -->
             <span id="hours">00</span>
+            <!-- Affichage du nombre de minutes -->
             <span id="minutes">00</span>
+            <!-- Affichage du nombre de secondes -->
             <span id="seconds">00</span>
         </div>
+        <!-- Conteneur des contrôles -->
         <div class="controls">
+            <!-- Bouton de play/pause -->
             <button class="button pause"></button>
         </div>
     </div>
