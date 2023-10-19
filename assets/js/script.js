@@ -2,7 +2,7 @@
 window.addEventListener("DOMContentLoaded", (event) => {
         let is_run = true;
 
-        init(); //Appelle à la fonction d'initilisation
+        init(); //Appelle à la fonction d'initialisation
 
         //Fonction d'initialisation
         function init() {

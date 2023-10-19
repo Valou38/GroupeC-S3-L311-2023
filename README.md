@@ -63,7 +63,7 @@ Editer l'ensemble des fichiers pour permettre une meilleure compréhension
 
 Pour faire fonctionner l'application, lancer le fichier index.php dans un navigateur \
 Une fois l'application lancée, l'heure exacte apparait et se met à jour chaque seconde. \
-Si l'utilisateur presse le boutton "pause", l'heure se fige. Pour revenir à l'affichage de l'heure conrante, rappuyer sur le boutton.
+Si l'utilisateur presse le button "pause", l'heure se fige. Pour revenir à l'affichage de l'heure conrante, rappuyer sur le boutton.
 
 ## Languages d'écriture
 
@@ -105,11 +105,11 @@ Paramètres : \
 &nbsp; &nbsp; Ne prend aucun paramètre d'entrée \
 Fonctions : \
 &nbsp; &nbsp; Modifie l'état de l'affichage (défilant si figé, figé si défilant) \
-&nbsp; &nbsp; Switch également le boutton
+&nbsp; &nbsp; Switch également le bouton
 
 * setInterval() \
 Paramètres : \
-&nbsp; &nbsp; Ordre à executer \
+&nbsp; &nbsp; Ordre à exécuter \
 &nbsp; &nbsp; Valeur de l'intervalle en millisecondes \
 Fonctions : \
 &nbsp; &nbsp; Calcul et actualise l'heure chaque seconde \
