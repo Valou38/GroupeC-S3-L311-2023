@@ -16,7 +16,7 @@
         <!-- Conteneur principal de la page -->
         <div class="wrapper">
             <!-- Conteneur interne -->
-            <div class="inside wrapper">
+            <div class="inside" class="wrapper">
                 <!-- Affichage de l'heure actuelle -->
                 <div class="timer">
                     <!-- Affichage du nombre d'heures -->
