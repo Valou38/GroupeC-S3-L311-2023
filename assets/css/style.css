@@ -23,7 +23,7 @@ Ils sont aussi centrés sur l'axe horizontal et vertical
 Ils occupes 100% de la hauteur de la div
  */
 
-#wrapper {
+.wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
