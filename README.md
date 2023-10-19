@@ -61,6 +61,7 @@ Editer l'ensemble des fichiers pour permettre une meilleure compréhension
 
 ## Fonctionnement
 
+Pour faire fonctionner l'application, lancer le fichier index.php dans un navigateur \
 Une fois l'application lancée, l'heure exacte apparait et se met à jour chaque seconde. \
 Si l'utilisateur presse le boutton "pause", l'heure se fige. Pour revenir à l'affichage de l'heure conrante, rappuyer sur le boutton.
 
