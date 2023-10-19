@@ -78,16 +78,16 @@ GroupeC-S3-L311-2023
 
 ├── Master
     ├── assets
-        ├── / CSS
+        ├── CSS
             └── style.css
         ├── JavaScript
             └── script.js
     ├── README.md
     └── index.php
-├── /CommentairesCSS
-├── /CommentairesJS
-├── /CommentairesPHP
-└── /synchrone1
+├── CommentairesCSS
+├── CommentairesJS
+├── CommentairesPHP
+└── synchrone1
 
 ```
 
