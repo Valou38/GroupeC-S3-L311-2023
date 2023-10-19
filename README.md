@@ -1,7 +1,7 @@
 *****************************************
 
 Ce fichier README a été généré le 17 octobre 2023 par UE311 - Groupe C \
-Dernière mise-à-jour le : 17 octobre 2023.
+Dernière mise-à-jour le : 19 octobre 2023.
 
 ***************************************
 # INFORMATIONS GENERALES
