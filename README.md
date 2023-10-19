@@ -71,19 +71,27 @@ Les fichiers .PHP sont principalement programmés en langage HTML, compatible av
 
 ## Arborescence
 
-GroupeC-S3-L311-2023  \
-&nbsp;&nbsp; /Master \
-&nbsp;&nbsp; &nbsp;&nbsp; /assets \
-&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; /CSS  \
-&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; style.css \
-&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; /JS   \
-&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; script.js \
-&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; README.md \
-&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; index.php \
-&nbsp;&nbsp; /CommentairesPHP \
-&nbsp;&nbsp; /CommentairesJS \
-&nbsp;&nbsp; /CommentairesCSS \
-&nbsp;&nbsp; /synchrone1
+
+
+```
+GroupeC-S3-L311-2023
+
+├── Master
+    ├── assets
+        ├── / CSS
+            └── style.css
+        ├── JavaScript
+            └── script.js
+        ├── README.md
+        └── index.php
+    ├── /CommentairesCSS
+    ├── /CommentairesJS
+    ├── /CommentairesPHP
+    └── /syncrone1
+
+```
+
+
 
 ## Convention de nommage des fichiers :
 
