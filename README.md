@@ -84,10 +84,6 @@ GroupeC-S3-L311-2023
             └── script.js
     ├── README.md
     └── index.php
-├── CommentairesCSS
-├── CommentairesJS
-├── CommentairesPHP
-└── synchrone1
 
 ```
 
