@@ -1,3 +1,10 @@
+/*
+Permet de gérer l'affichage de la page
+Place les marges internes et externes à 0
+Indique la police de la page ainsi que sa taille et couleur
+Ajoute un fond transparent
+*/
+
 html, body {
     margin: 0;
     padding: 0;
@@ -8,6 +15,14 @@ html, body {
     background-color: transparent;
 }
 
+/*
+Permet de placer les éléments avec l'id wrapper
+On utilise ici un placement avec des flexbox
+Cela nous permet de mettre les éléments contenus dans la div en colonne
+Ils sont aussi centrés sur l'axe horizontal et vertical
+Ils occupes 100% de la hauteur de la div
+ */
+
 #wrapper {
     display: flex;
     flex-direction : column;
@@ -16,22 +31,50 @@ html, body {
     height: 100%;
 }
 
+/*
+S'occupe de la mise en page des éléments de la classe inside
+Il indique que le texte de cette div doit être en gras et avoir une taille de 75px
+Ces paramètres prennent le dessus sur ceux indiqués dans la partie html, body
+ */
+
 .inside {
     font-weight: bold;
     font-size: 75px;
 }
 
+/*
+Ajoute deux-points à la fin de chaque span contenu dans la classe timer
+ */
+
 .timer span::after {
     content: " : ";
 }
+
+/*
+Ajoute un espace à la fin du dernier span contenu dans la classe timer
+ */
 
 .timer span:last-child::after {
     content: "";
 }
 
+/*
+Centre le texte de la classe controls
+ */
+
 .controls {
     text-align: center;
 }
+
+/*
+Permet de gérer la mise en page du bouton contenu dans la classe controls
+Il indique que le bouton ne doit pas être plus grand que son parent
+Il a une hauteur de 74px
+Il a un fond transparent et ces bordure aussi, sauf celle de gauche
+Sa transition se fait en 100ms
+Au passage de la souris, le curseur devient un pointeur
+Il a une bordure solide de 37px en haut et en bas de 0 à droite et de 60 à gauche
+ */
 
 .controls button {
     box-sizing: border-box;
@@ -44,6 +87,11 @@ html, body {
     border-style: solid;
     border-width: 37px 0 37px 60px;
 }
+
+/*
+Gère le bouton avec la classe pause
+Il double sa bordure et elle passe à 0px en haut, en bas et à droite, et reste de 60 à gauche
+ */
 
 .controls button.pause {
     border-style: double;
