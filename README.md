@@ -73,7 +73,6 @@ Les fichiers .PHP sont principalement programmés en langage HTML, compatible av
 ## Arborescence
 
 
-
 ```
 GroupeC-S3-L311-2023
 
@@ -92,11 +91,32 @@ GroupeC-S3-L311-2023
 
 ```
 
-
-
 ## Convention de nommage des fichiers :
 
 Afin d'éviter toute confusion, la branche Master est la branche principale dans laquelle sont logés les fichiers suivant l'appellation de base (index, style, script).
 
 Les autres branches servent uniquement au développement et sont nommées en fonction de leur utilité pour les développeur.
 Par exemple, la branche "commentairePHP" n'est utilisée que pour la création des commentaires du fichier PHP.
+
+## Fonctions principales
+
+* init()  \
+Paramètres : \
+&nbsp; &nbsp; Ne prend aucun paramètre d'entrée \
+Fonctions : \
+&nbsp; &nbsp; Modifie l'état de l'affichage (défilant si figé, figé si défilant) \
+&nbsp; &nbsp; Switch également le boutton
+
+* setInterval() \
+Paramètres : \
+&nbsp; &nbsp; Ordre à executer \
+&nbsp; &nbsp; Valeur de l'intervalle en millisecondes \
+Fonctions : \
+&nbsp; &nbsp; Calcul et actualise l'heure chaque seconde \
+&nbsp; &nbsp; Modifie la couleur d'arrière plan 
+
+* adjustTimer(timer) \
+Paramètres : \
+&nbsp; &nbsp; timer (heure courante) \
+Fonctions : \
+&nbsp; &nbsp; Ecriture au format horloge 
