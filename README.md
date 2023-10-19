@@ -82,12 +82,12 @@ GroupeC-S3-L311-2023
             └── style.css
         ├── JavaScript
             └── script.js
-        ├── README.md
-        └── index.php
-    ├── /CommentairesCSS
-    ├── /CommentairesJS
-    ├── /CommentairesPHP
-    └── /syncrone1
+    ├── README.md
+    └── index.php
+├── /CommentairesCSS
+├── /CommentairesJS
+├── /CommentairesPHP
+└── /synchrone1
 
 ```
 
