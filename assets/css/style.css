@@ -25,7 +25,7 @@ Ils occupes 100% de la hauteur de la div
 
 #wrapper {
     display: flex;
-    flex-direction : column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
