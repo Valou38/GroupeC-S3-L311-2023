@@ -14,6 +14,7 @@
     </head>
     <body>
         <!-- Conteneur principal de la page -->
+
         <div class="wrapper">
             <!-- Conteneur interne -->
             <div class="inside wrapper">
